@@ -1,0 +1,58 @@
+
+@media(max-width: 768px) {
+  .caption--color {
+    font-size: 40px;}
+    .caption--colorBlack {
+    font-size: 40px;}
+     .caption--colorBlackMedia {
+    font-size: 40px;}
+    .imgRedes{
+    width: 55px;
+    padding-bottom: 10px;
+    }
+  
+    .bg-light--paddingImage{
+    margin-right: 50px;
+    }
+
+    .paddingOntop1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 30%;}
+
+    .img-fluidRedes{
+    width:240%;
+
+    }
+    .imgRedes:hover {
+    width: 7%;}
+
+    .imgRedes:hover:before {
+    width: 5%;}
+
+}   
+
+
+
+@media (min-width: 576px){
+    
+    .modificandoelFooter__subfinalFooter{
+    padding-top:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-bottom: 0px;}
+    .paddingOntop1 {
+    padding-bottom: 5px}
+   .overFlowHidden{
+   overflow:hidden;
+   }  
+   }
+
+
+@media (min-width: 992px){
+       .img-fluidRedes{
+    width:100%;
+}
+}
+
+

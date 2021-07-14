@@ -1,0 +1,404 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
+.paddingOntop {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.paddingOntopException {
+  padding-top: 50px;
+  padding-bottom: 0px; }
+
+.paddingOntop1 {
+  padding-top: 15px;
+  padding-bottom: 50px; }
+
+.align-items-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.container-fluid {
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+.thumbnail {
+  position: relative; }
+
+.card {
+  margin-right: 0px; }
+
+.trabajosPortfolio {
+  padding-bottom: 30px; }
+
+.form-inline {
+  justify-content: center; }
+
+.redesSociales {
+  padding: 0px;
+  margin: 0px; }
+
+.botonTrabajos {
+  justify-content: center;
+  align-items: center !important; }
+
+.trabajosPortfolio {
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center; }
+
+.overFlowHidden {
+  overflow: hidden; }
+
+.bg-light {
+  background-color: #36b7a9 !important; }
+  .bg-light--paddingImage {
+    margin-right: 600px; }
+
+a {
+  color: #36b7a9; }
+
+header {
+  background-color: #36b7a9 !important; }
+
+nav {
+  background-color: #36b7a9; }
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: #36b7a9; }
+
+.caption {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  font-size: xxx-large;
+  font-family: 'Montserrat Extrabold', sans-serif; }
+
+.caption--color {
+  color: white;
+  padding-top: 3%;
+  font-size: 90px; }
+
+.caption--color:hover {
+  color: #ffcccc; }
+
+.caption--colorBlack {
+  color: black;
+  font-size: 90px;
+  padding-top: 3%; }
+
+.caption--colorBlackMedia {
+  color: black;
+  font-size: 70px;
+  padding-top: 3%; }
+
+.caption--colorBlack:hover {
+  color: #ffcccc; }
+
+.inicioQuiensoy {
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .inicioQuiensoy__titulo {
+    color: #36b7a9;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive; }
+    .inicioQuiensoy__titulo__titulo .inicioQuiensoy__titulo__parrafo {
+      size: 14px;
+      color: black;
+      font-family: 'Montserrat Bold', sans-serif; }
+
+.aboutMe {
+  padding-top: 10px;
+  background-color: #eaeaea;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px; }
+
+.typeDesign {
+  background-color: black !important;
+  align-items: center;
+  justify-content: center; }
+  .typeDesign__typeOfDesignText {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; }
+
+.modificandoelFooter {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+  .modificandoelFooter__subfinalFooter {
+    font-size: 16px;
+    padding-top: 10%;
+    padding-bottom: 20%; }
+
+.modificandoelFooter__subfinalFooter--tamaño {
+  font-size: 11px;
+  padding-top: 5px; }
+
+.main {
+  background-color: #fff; }
+
+.conteinerContacto {
+  padding-top: 5px;
+  background-color: white; }
+
+/*GALERIA DE IMAGENES*/
+.container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); }
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold; }
+
+.gallery-container p.page-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #888;
+  font-size: 18px; }
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+
+.tz-gallery img {
+  border-radius: 4px; }
+
+.baguetteBox-button {
+  background-color: transparent !important; }
+
+#Instagram {
+  text-aling: right; }
+
+.conFondo {
+  opacity: 0.2; }
+
+.teContacto {
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  text-align: center; }
+
+.teContacto2 {
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  text-align: center; }
+
+#staticEmail2 {
+  color: white; }
+
+.footerSeparator {
+  width: 150px;
+  height: 1px;
+  margin: 10px auto;
+  background: #fff; }
+
+.footerSeparatorBlack {
+  width: 150px;
+  height: 1px;
+  margin: 10px auto;
+  background: black; }
+
+.solSeparator {
+  padding-top: 5px;
+  padding-bottom: 5%; }
+
+.btn-group-sm > .btn, .btn-sm {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 0; }
+
+.btn-primary {
+  color: black;
+  background-color: white;
+  border-color: white;
+  font-family: 'Montserrat'; }
+
+.btn-primary2 {
+  color: black;
+  background-color: black;
+  border-color: white; }
+
+.btn-secondary {
+  color: #fff;
+  font-family: 'Montserrat';
+  background-color: #6c757d;
+  border-color: #6c757d; }
+
+.contactMeBackground {
+  background-image: url("../assets/img/contactMe.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+
+.imgRedes:hover {
+  width: 85%; }
+
+.imgRedes:hover:before {
+  width: 60%; }
+
+.aboutMeExperimentacion {
+  background-color: black; }
+
+.aboutMeBackground {
+  background-image: url("../assets/img/aboutMe.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+
+/*GALERIA ABOUT ME*/
+.full-screen-portfolio .container-fluid,
+.full-screen-portfolio .col-md-4, .col-md-8 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.portfolio-item img {
+  width: 100%;
+  overflow: hidden; }
+
+.portfolio-item .thumb {
+  position: relative; }
+
+.portfolio-item .hover-effect .hover-content {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+
+.full-screen-portfolio .portfolio-item h1 {
+  position: relative;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 15px;
+  transform: translateY(25px);
+  transition: .5s ease-in-out;
+  letter-spacing: 0.5px; }
+
+.full-screen-portfolio .portfolio-item em {
+  font-style: normal;
+  font-weight: 200; }
+
+.full-screen-portfolio .portfolio-item:hover h1 {
+  transform: translateY(0); }
+
+.full-screen-portfolio .portfolio-item p {
+  padding-left: 20px;
+  font-weight: 300 !important;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: .5s ease-in-out;
+  text-transform: uppercase; }
+
+.full-screen-portfolio .portfolio-item {
+  text-align: center;
+  line-height: 150%;
+  text-transform: lowercase;
+  cursor: pointer; }
+
+.full-screen-portfolio .portfolio-item:hover p {
+  opacity: 1;
+  transform: translateY(0); }
+
+.popup-icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 300;
+  display: inline-block;
+  width: 60px;
+  height: 60px; }
+
+.popup-icon button {
+  background-color: transparent;
+  outline: none;
+  border: none; }
+
+.modal-btn img {
+  width: 60px;
+  height: 60px; }
+
+.subTitle {
+  text-align: center;
+  color: black;
+  font-size: 22px; }
+
+@media (max-width: 768px) {
+  .caption--color {
+    font-size: 40px; }
+  .caption--colorBlack {
+    font-size: 40px; }
+  .caption--colorBlackMedia {
+    font-size: 40px; }
+  .imgRedes {
+    width: 55px;
+    padding-bottom: 10px; }
+  .bg-light--paddingImage {
+    margin-right: 50px; }
+  .paddingOntop1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 30%; }
+  .img-fluidRedes {
+    width: 240%; }
+  .imgRedes:hover {
+    width: 7%; }
+  .imgRedes:hover:before {
+    width: 5%; } }
+
+@media (min-width: 576px) {
+  .modificandoelFooter__subfinalFooter {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  .paddingOntop1 {
+    padding-bottom: 5px; }
+  .overFlowHidden {
+    overflow: hidden; } }
+
+@media (min-width: 992px) {
+  .img-fluidRedes {
+    width: 100%; } }
